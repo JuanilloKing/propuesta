@@ -26,16 +26,15 @@ Modelo de empresas: Para empresas en las que sus trabajadores necesiten transpor
 
 ## Objetivos generales
 
+* Objetivo: "Gestionar usuarios"
+* Casos de uso:  "crear usuarios", "modificar perfil usuario", "eliminar perfil usuarios"
 
-* Objetivo: "optimizar la comunicación entre pasajeros y taxistas"
-* Casos de uso: "Recibir notificacion al taxista sobre el viaje", "recibir notificacion al cliente en caso de confirmación".
+* Objetivo:  "Gestionar taxistas"
+* Casos de uso: "crear taxistas", "modificarperfil taxista", "visualizar viajes taxista"
 
-* Objetivo: "reservar taxi"
-* Casos de uso: "Reservar un taxi para viaje inmediato o futuro".
-
-* Objetivo: "facilitar la consulta de tarifas de taxis"
-* Casos de uso: "Consultar el precio de un viaje".
+* Objetivo: "Gestionar reservas"
+* Casos de uso: "realizar reserva","Recibir notificacion al taxista sobre el viaje", "recibir notificacion al cliente en caso de confirmación"
 
 # Elemento de innovación
 
-API de Google Maps, API geolocation
+API de Google Maps, API geolocation, API OpenAI, Twilio (para enviar SMS), [posible añadido de sistema de pagos]
